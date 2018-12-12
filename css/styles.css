@@ -1,3 +1,19 @@
-.navbar-dark {
-    background-color: #512DA8;
+.navbar {
+    background-color: #33001a;
+}
+
+.nav-link,
+.navbar-brand {
+    color: #f4f4f4;
+    cursor: pointer;
+}
+
+.nav-link:hover {
+    background: #f4f4f4;
+    color: #33001a;
+}
+
+.navbar-brand:hover {
+    background: #f4f4f4;
+    color: #33001a;
 }
