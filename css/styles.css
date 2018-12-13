@@ -1,19 +1,26 @@
 .navbar {
-    background-color: #33001a;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
 }
 
-.nav-link,
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+.navbar-collapse {
+    margin-right: 200px;
+    margin-top: 5px;
+}
+
 .navbar-brand {
-    color: #f4f4f4;
-    cursor: pointer;
+    margin-left: 200px;
+    margin-top: 5px;
 }
 
-.nav-link:hover {
-    background: #f4f4f4;
-    color: #33001a;
-}
-
-.navbar-brand:hover {
-    background: #f4f4f4;
-    color: #33001a;
+.header {
+    background-image: url(/images/close-table-technology-notebook-open/891.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
 }
