@@ -1,310 +1,346 @@
-    .navbar {
-        background-color: rgb(0, 0, 0);
-        opacity: 0.3;
-    }
-    
-    .navbar-brand,
-    .nav-link {
-        color: white;
-    }
-    
-    .navbar-collapse {
-        margin-right: 200px;
-        margin-top: 5px;
-    }
-    
-    .navbar-brand {
-        margin-left: 200px;
-        margin-top: 5px;
-    }
-    
-    .header {
-        background-image: url(/images/close-table-technology-notebook-open/891.jpg);
-        background-attachment: fixed;
-        background-size: cover;
-        background-position: center;
-    }
-    
-    .overlay {
-        position: absolute;
-        min-height: 100%;
-        min-width: 100%;
-        left: 0;
-        top: 0;
-        background: rgb(244, 244, 244, 0.79);
-    }
-    
-    .description {
-        position: absolute;
-        top: 25%;
-        margin: auto;
-        padding: 1.5em;
-        margin-left: 400px;
-        line-height: 1.5;
-    }
-    
-    .description button {
-        background: rgb(102, 102, 102);
-        color: white;
-    }
-    
-    .about {
-        margin: 4em 0;
-        padding: 1em;
-        position: relative;
-        color: rgb(51, 51, 51);
-    }
-    
-    .about h1 {
-        color: rgb(51, 51, 51);
-        margin: 2em;
-        text-align: center;
-    }
-    
-    .about img {
-        height: 90%;
-        width: 60%;
-        border-radius: 70%;
-    }
-    
-    .about span {
-        display: block;
-        position: absolute;
-        left: 60px;
-    }
-    
-    .about .desc {
-        padding: 2em;
-        border-left: 2px solid #eeeeee;
-    }
-    
-    .about .desc p {
-        line-height: 2;
-    }
-    
-    .page-header h1 {
-        margin-top: 2em;
-        padding: 1em;
-        position: relative;
-        color: rgb(51, 51, 51);
-        text-align: center;
-    }
-    
-    .timeline {
-        list-style: none;
-        padding: 20px 0 20px;
-        position: relative;
-    }
-    
-    .timeline:before {
-        top: 0;
-        bottom: 0;
-        position: absolute;
-        content: " ";
-        width: 3px;
-        background-color: #eeeeee;
-        left: 50%;
-        margin-left: -1.5px;
-    }
-    
-    .timeline>li {
-        margin-bottom: 20px;
-        position: relative;
-    }
-    
-    .timeline>li:before,
-    .timeline>li:after {
-        content: " ";
-        display: table;
-    }
-    
-    .timeline>li:after {
-        clear: both;
-    }
-    
-    .timeline>li:before,
-    .timeline>li:after {
-        content: " ";
-        display: table;
-    }
-    
-    .timeline>li:after {
-        clear: both;
-    }
-    
-    .timeline>li>.timeline-panel {
-        width: 46%;
-        float: left;
-        border: 1px solid #d4d4d4;
-        border-radius: 2px;
-        padding: 20px;
-        position: relative;
-        -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-        box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
-    }
-    
-    .timeline>li>.timeline-panel:before {
-        position: absolute;
-        top: 26px;
-        right: -15px;
-        display: inline-block;
-        border-top: 15px solid transparent;
-        border-left: 15px solid #ccc;
-        border-right: 0 solid #ccc;
-        border-bottom: 15px solid transparent;
-        content: " ";
-    }
-    
-    .timeline>li>.timeline-panel:after {
-        position: absolute;
-        top: 27px;
-        right: -14px;
-        display: inline-block;
-        border-top: 14px solid transparent;
-        border-left: 14px solid #fff;
-        border-right: 0 solid #fff;
-        border-bottom: 14px solid transparent;
-        content: " ";
-    }
-    
-    .timeline>li>.timeline-badge {
-        color: #fff;
-        width: 50px;
-        height: 50px;
-        line-height: 50px;
-        font-size: 1.4em;
-        text-align: center;
-        position: absolute;
-        top: 16px;
-        left: 50%;
-        margin-left: -25px;
-        background-color: #999999;
-        z-index: 100;
-        border-top-right-radius: 50%;
-        border-top-left-radius: 50%;
-        border-bottom-right-radius: 50%;
-        border-bottom-left-radius: 50%;
-    }
-    
-    .timeline>li.timeline-inverted>.timeline-panel {
-        float: right;
-    }
-    
-    .timeline>li.timeline-inverted>.timeline-panel:before {
-        border-left-width: 0;
-        border-right-width: 15px;
-        left: -15px;
-        right: auto;
-    }
-    
-    .timeline>li.timeline-inverted>.timeline-panel:after {
-        border-left-width: 0;
-        border-right-width: 14px;
-        left: -14px;
-        right: auto;
-    }
-    
-    .timeline-badge.primary {
-        background-color: #2e6da4 !important;
-    }
-    
-    .timeline-badge.success {
-        background-color: #3f903f !important;
-    }
-    
-    .timeline-badge.warning {
-        background-color: #f0ad4e !important;
-    }
-    
-    .timeline-badge.danger {
-        background-color: #d9534f !important;
-    }
-    
-    .timeline-badge.info {
-        background-color: #5bc0de !important;
-    }
-    
-    .timeline-title {
-        margin-top: 0;
-        color: inherit;
-    }
-    
-    .timeline-body>p,
-    .timeline-body>ul {
-        margin-bottom: 0;
-    }
-    
-    .timeline-body>p+p {
-        margin-top: 5px;
-    }
-    
-    .experience {
-        margin-top: 2em;
-        padding: 1em;
-        position: relative;
-        color: rgb(51, 51, 51);
-        text-align: center;
-    }
-    
-    .card1 {
-        margin-left: 100px;
-    }
-    
-    .card3 {
-        margin-right: 100px;
-    }
-    
-    .card2 {
-        margin-right: 50px;
-        margin-left: 50px;
-    }
-    
-    .skills {
-        margin-top: 2em;
-        padding: 1em;
-        position: relative;
-        color: rgb(51, 51, 51);
-        text-align: center;
-    }
-    
-    .htmlSkill {
-        width: 90%;
-        height: 40px;
-        background-color: #4C7A62;
-        color: #F2E4D6;
-    }
-    
-    .cssSkill {
-        width: 80%;
-        height: 40px;
-        background-color: #D24F6B;
-        color: #F2E4D6;
-    }
-    
-    .jsSkill {
-        width: 65%;
-        height: 39px;
-        background-color: #174D5A;
-        color: #F2E4D6;
-    }
-    
-    .workSkill1 {
-        margin-left: 200px;
-    }
-    
-    .workSkill2 {
-        margin-top: 30px;
-        margin-left: 200px;
-    }
-    
-    .workSkill3 {
-        margin-top: 30px;
-        margin-left: 200px;
-    }
-    
-    .progressBarcontainer {
-        margin-top: -30px;
-        margin-left: 200px;
-        margin-right: 200px;
-        height: 20px;
-    }
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+    font-family: "Raleway";
+}
+
+.navbar {
+    background-color: rgb(0, 0, 0);
+    opacity: 0.3;
+}
+
+.navbar-brand,
+.nav-link {
+    color: white;
+}
+
+.navbar-collapse {
+    margin-right: 200px;
+    margin-top: 5px;
+}
+
+.navbar-brand {
+    margin-left: 200px;
+    margin-top: 5px;
+}
+
+.header {
+    background-image: url(/images/close-table-technology-notebook-open/891.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgb(244, 244, 244, 0.79);
+}
+
+.description {
+    position: absolute;
+    top: 25%;
+    margin: auto;
+    padding: 1.5em;
+    margin-left: 400px;
+    line-height: 1.5;
+}
+
+.description button {
+    background: rgb(102, 102, 102);
+    color: white;
+}
+
+.about {
+    margin: 4em 0;
+    padding: 1em;
+    position: relative;
+    color: rgb(51, 51, 51);
+}
+
+.about h1 {
+    color: rgb(51, 51, 51);
+    margin: 2em;
+    text-align: center;
+}
+
+.about img {
+    height: 90%;
+    width: 60%;
+    border-radius: 70%;
+}
+
+.about span {
+    display: block;
+    position: absolute;
+    left: 60px;
+}
+
+.about .desc {
+    padding: 2em;
+    border-left: 2px solid #eeeeee;
+}
+
+.about .desc p {
+    line-height: 2;
+}
+
+.page-header h1 {
+    margin-top: 2em;
+    padding: 1em;
+    position: relative;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.timeline {
+    list-style: none;
+    padding: 20px 0 20px;
+    position: relative;
+}
+
+.timeline:before {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 3px;
+    background-color: #eeeeee;
+    left: 50%;
+    margin-left: -1.5px;
+}
+
+.timeline>li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li:before,
+.timeline>li:after {
+    content: " ";
+    display: table;
+}
+
+.timeline>li:after {
+    clear: both;
+}
+
+.timeline>li>.timeline-panel {
+    width: 46%;
+    float: left;
+    border: 1px solid #d4d4d4;
+    border-radius: 2px;
+    padding: 20px;
+    position: relative;
+    -webkit-box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+    box-shadow: 0 1px 6px rgba(0, 0, 0, 0.175);
+}
+
+.timeline>li>.timeline-panel:before {
+    position: absolute;
+    top: 26px;
+    right: -15px;
+    display: inline-block;
+    border-top: 15px solid transparent;
+    border-left: 15px solid #ccc;
+    border-right: 0 solid #ccc;
+    border-bottom: 15px solid transparent;
+    content: " ";
+}
+
+.timeline>li>.timeline-panel:after {
+    position: absolute;
+    top: 27px;
+    right: -14px;
+    display: inline-block;
+    border-top: 14px solid transparent;
+    border-left: 14px solid #fff;
+    border-right: 0 solid #fff;
+    border-bottom: 14px solid transparent;
+    content: " ";
+}
+
+.timeline>li>.timeline-badge {
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+    text-align: center;
+    position: absolute;
+    top: 16px;
+    left: 50%;
+    margin-left: -25px;
+    background-color: #999999;
+    z-index: 100;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel {
+    float: right;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:before {
+    border-left-width: 0;
+    border-right-width: 15px;
+    left: -15px;
+    right: auto;
+}
+
+.timeline>li.timeline-inverted>.timeline-panel:after {
+    border-left-width: 0;
+    border-right-width: 14px;
+    left: -14px;
+    right: auto;
+}
+
+.timeline-badge.primary {
+    background-color: #2e6da4 !important;
+}
+
+.timeline-badge.success {
+    background-color: #3f903f !important;
+}
+
+.timeline-badge.warning {
+    background-color: #f0ad4e !important;
+}
+
+.timeline-badge.danger {
+    background-color: #d9534f !important;
+}
+
+.timeline-badge.info {
+    background-color: #5bc0de !important;
+}
+
+.timeline-title {
+    margin-top: 0;
+    color: inherit;
+}
+
+.timeline-body>p,
+.timeline-body>ul {
+    margin-bottom: 0;
+}
+
+.timeline-body>p+p {
+    margin-top: 5px;
+}
+
+.experience {
+    margin-top: 2em;
+    padding: 1em;
+    position: relative;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.card1 {
+    margin-left: 100px;
+}
+
+.card3 {
+    margin-right: 100px;
+}
+
+.card2 {
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
+.skills {
+    margin-top: 2em;
+    padding: 1em;
+    position: relative;
+    color: rgb(51, 51, 51);
+    text-align: center;
+}
+
+.htmlSkill {
+    width: 90%;
+    height: 40px;
+    background-color: #4C7A62;
+    color: #F2E4D6;
+}
+
+.cssSkill {
+    width: 80%;
+    height: 40px;
+    background-color: #D24F6B;
+    color: #F2E4D6;
+}
+
+.jsSkill {
+    width: 65%;
+    height: 39px;
+    background-color: #174D5A;
+    color: #F2E4D6;
+}
+
+.workSkill1 {
+    margin-left: 200px;
+}
+
+.workSkill2 {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.workSkill3 {
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.progressBarcontainer {
+    margin-top: -30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    height: 20px;
+}
+
+.contact-form {
+    margin: 17em 0;
+    position: relative;
+}
+
+.contact-form h1 {
+    padding: 2em 1px;
+    color: rgb(51, 51, 51);
+}
+
+.contact-form .right {
+    max-width: 600px;
+}
+
+.contact-form .right .btn-secondary {
+    background: #174D5A;
+}
+
+.contact-form .right .form-control::placeholder {
+    color: #888;
+    font-size: 16px;
+}

@@ -23,16 +23,16 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link d-flex justify-content-end" href="#about">About<span class="sr-only">(current)</span></a>
+                    <a class="nav-link d-flex justify-content-end" data-target="#about" href="#about">About<span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex justify-content-end" href="#">Education</a>
+                    <a class="nav-link d-flex justify-content-end" data-target="#education" href="#education">Education</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex justify-content-end" href="#">Experience</a>
+                    <a class="nav-link d-flex justify-content-end" data-target="#experience" href="#experience">Experience</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link d-flex justify-content-end" href="#">Contact</a>
+                    <a class="nav-link d-flex justify-content-end" data-target="#contact" href="#contact">Contact</a>
                 </li>
             </ul>
         </div>
@@ -43,7 +43,7 @@
             <div class="description">
                 <h3><em>Hey, I'm</em></h3>
                 <h2><strong><em>Emine Bahce Cizer</em></strong></h2>
-                <button class="btn btn-outline-secondary btn-lg">See more</button>
+                <button class="btn btn-outline-secondary btn-lg" onclick="window.location.href='#about'">See more</button>
             </div>
         </div>
     </header>
@@ -66,7 +66,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container" id="education">
         <div class="page-header">
             <h1>Education</h1>
         </div>
@@ -128,10 +128,10 @@
         <div class="col-lg-4 col-md-4 col-sm-12">
             <div class="card card2">
                 <div class="card-body">
-                    <h5 class="card-title">Koç Sistem</h5>
+                    <h5 class="card-title">KocSistem</h5>
                     <h6 class="card-subtitle mb-2 text-muted">Software Developer</h6>
                     <p class="card-text">Some quick example text to build on the card titleeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee</p>
-                    <a class="card-link" href="https://www.kocsistem.com.tr/en/">Koc Sistem</a>
+                    <a class="card-link" href="https://www.kocsistem.com.tr/en/">KocSistem</a>
                 </div>
             </div>
         </div>
@@ -161,6 +161,31 @@
         <p class="workSkill3">JavaScript, Es6</p>
         <div class="progressBarcontainer">
             <div class="skills jsSkill"><span id="#jsSkill">65%</span></div>
+        </div>
+    </div>
+    <div class="contact-form" id="contact">
+        <div class="container">
+            <form>
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <h1>Get in Touch</h1>
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-sm-12 right">
+                        <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" placeholder="Your Name" name="">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control form-control-lg" placeholder="YourEmail@email.com" name="email">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control form-control-lg">
+                                
+                            </textarea>
+                        </div>
+                        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+                    </div>
+                </div>
+            </form>
         </div>
     </div>
 
