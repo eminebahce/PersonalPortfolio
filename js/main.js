@@ -4,6 +4,6 @@ $(document).ready(function() {
 
 $(".navbar a").click(function() {
     $("body, html").animate({
-        scrollTop: $("#", $(this).data('target')).offset().top
+        scrollTop: $('#', $(this).data('target')).offset().top
     }, 1000)
 })
